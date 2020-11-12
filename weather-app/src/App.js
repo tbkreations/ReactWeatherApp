@@ -54,6 +54,7 @@ function App() {
             </div>
         </div>
         <div className="weather">{weather.weather[0].main}</div>
+        <div className="subweather">{weather.weather[0].description}</div>
       </div>
       </div>
       ) : ('')}
