@@ -9,8 +9,8 @@ function App() {
   const [query, setQuery] = useState('');
   const [weather, setWeather] = useState({});
 
-  const search = evt => {
-    if (evt.key === "Enter") {
+  const search = event => {
+    if (event.key === "Enter") {
       fetch(`${api.base}weather?q=${query}&units=imperial&APPID=${api.key}`)
         .then(res => res.json())
         .then(result => {
@@ -54,6 +54,7 @@ function App() {
             </div>
         </div>
         <div className="weather">{weather.weather[0].main}</div>
+        <div className="subweather">{weather.weather[0].description}</div>
       </div>
       </div>
       ) : ('')}

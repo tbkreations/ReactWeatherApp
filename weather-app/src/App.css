@@ -1,3 +1,7 @@
+*:focus {
+  outline: none;
+}
+
 .App {
   text-align: center;
   background-color: #282c34;
@@ -21,6 +25,10 @@
   width: 25%;
   height: 2em;
   font-size: 18px;
+  padding: .5em;
+  border-radius: 1em;
+  background-color: #282c34;
+  color: white;
 }
 
 .location-box {
@@ -61,12 +69,21 @@
 }
 
 .weather-box .weather {
-  margin: .25em auto;
+  margin: 0 auto;
   color: lightblue;
-  padding: .25em;
   width: fit-content;
   font-size: 3.5em;
   font-weight: 800;
+  text-shadow: 2px 2px rgba(50, 50, 70, .5);
+}
+
+.weather-box .subweather {
+  margin: .25em auto;
+  color: lightblue;
+  width: fit-content;
+  font-size: 1.25em;
+  font-style: italic;
+  font-weight: 600;
   text-shadow: 2px 2px rgba(50, 50, 70, .5);
 }
 
