@@ -1,0 +1,91 @@
+.App-header {
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  font-size: calc(10px + 10vmin);
+  color: white;
+  background-color: lightblue;
+}
+
+.search-bar {
+  margin-top: 1em;
+  width: 25%;
+  height: 2em;
+  font-size: 18px;
+  padding: .5em;
+  border-radius: 1em;
+  background-color: #282c34;
+  color: white;
+}
+
+.location-box {
+  padding: 1em;
+}
+
+.location-box .location {
+  color: white;
+  font-size: 3.5em;
+  font-weight: 500;
+  text-shadow: 2px 2px rgba(50, 50, 70, .5);
+}
+
+.location-box .date {
+  color: white;
+  font-size: 1.5em;
+  font-weight: 300;
+  font-style: italic;
+  text-shadow: 2px 2px rgba(50, 50, 70, .5);
+}
+
+.weather-box .temp {
+  margin: .25em auto;
+  color: white;
+  background-color: lightblue;
+  padding: .5em;
+  width: fit-content;
+  border-radius: 6em;
+  font-size: 4.5em;
+  font-weight: 800;
+  text-shadow: 2px 2px rgba(50, 50, 70, .5);
+}
+
+.feels-like {
+  color: white;
+  font-weight: 400;
+  font-size: .5em;
+}
+
+.weather-box .weather {
+  margin: 0 auto;
+  color: lightblue;
+  width: fit-content;
+  font-size: 3.5em;
+  font-weight: 800;
+  text-shadow: 2px 2px rgba(50, 50, 70, .5);
+}
+
+.weather-box .subweather {
+  margin: .25em auto;
+  color: lightblue;
+  width: fit-content;
+  font-size: 1.25em;
+  font-style: italic;
+  font-weight: 600;
+  text-shadow: 2px 2px rgba(50, 50, 70, .5);
+}
+
+.apiLink {
+  color: #282c34;
+}
+
+.mainFoot {
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+  height: 2em;
+}
